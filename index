@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Олимпиадное программирование алгоритмы</title>
+  <style>
+    /* Стили для страницы */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+      color: #333;
+    }
+
+    /* Заголовок страницы */
+    h1 {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    /* Секции */
+    section {
+      margin: 20px;
+      padding: 20px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    /* Заголовки секций */
+    h2 {
+      color: #333;
+    }
+
+    /* Список внутри секции */
+    ul {
+      list-style-type: disc;
+    }
+
+    /* Ссылки */
+    a {
+      color: #0074D9;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>Олимпиадное программирование алгоритмы</h1>
+
+  <section>
+    <h2>1. Сортировка и поиск</h2>
+    <ul>
+      <li><a href="sort.html">Алгоритмы сортировки</a></li>
+      <li><a href="search.html">Алгоритмы поиска</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>2. Динамическое программирование</h2>
+    <ul>
+      <li><a href="dp.html">Основные понятия</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>3. Алгоритмы на графах</h2>
+    <ul>
+      <li><a href="theory.html">Основы теории графов</a></li>
+      <li><a href="bfsdfs.html">Обход графа</a></li>
+      <li><a href="shortest.html">Кратчайшие пути</a></li>
+      <li><a href="mod.html">Минимальные остовные деревья</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>4. Алгоритмы на деревьях</h2>
+    <ul>
+      <li><a href="tree.html">Базовые понятия</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>5. Математика</h2>
+    <ul>
+      <li><a href="number.html">Теория чисел</a></li>
+      <li><a href="combinatorics.html">Комбинаторика</a></li>
+      <li><a href="matrices.html">Матрицы</a></li>
+      <li><a href="probability.html">Вероятность</a></li>
+      <li><a href="fourier-transform.html">Преобразование Фурье</a></li>
+    </ul>
+  </section>
+
+  <script>
+    // Пример интерактивности: вывод сообщения при клике на ссылку
+    const links = document.querySelectorAll("a");
+    links.forEach((link) => {
+      link.addEventListener("click", () => {
+        alert("Вы перешли на страницу: " + link.textContent);
+      });
+    });
+  </script>
+</body>
+</html>
